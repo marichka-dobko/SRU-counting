@@ -7,7 +7,9 @@ Training Language Models with Reduced Compute', were used as a reference during 
 The developed model predicts the next number in a 3 digit sequence.
 
 ## Implementation details
-The training loss is cross entropy. Learning rate was set to 1e-3. SRU was trained for 200 epochs with a batch size of 6. 
+The reported experiment utilized a 2-layer SRU model.
+The training loss is cross entropy. SRU was trained for 200 epochs with a batch size of 6. 
+Optimizer for training is Adam with learning rate set to 1e-3.
 
 ## Dependencies
 Required libraries: PyTorch and numpy. 
